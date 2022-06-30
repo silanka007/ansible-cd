@@ -2,4 +2,3 @@
 user: ec2-user
 ssh_key: ./something.pem
 hosts: web
-
