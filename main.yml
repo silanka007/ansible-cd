@@ -1,4 +1,6 @@
 ---
-user: ec2-user
-ssh_key: ./something.pem
-hosts: web
+- name: exercise
+  hosts: localhost
+
+  roles:
+    - print
