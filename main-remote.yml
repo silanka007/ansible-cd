@@ -1,0 +1,9 @@
+---
+- name: "Setting up a web-server in an EC2 instance - exercise"
+  hosts: all # as seen in inventory file
+  user: ubuntu
+  become: true
+  become_method: sudo
+  become_user: root
+  roles:
+    - setup
